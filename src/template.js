@@ -8,7 +8,7 @@ export default function template(title, initialState = {}, content = "") {
                 <script src="assets/client.js"></script>
                 `
   } else {
-    scripts = ` <script src="assets/bundle.js"> </script> `
+    scripts = ` <script src="assets/sample.js"> </script> `
   }
   let page = `<!DOCTYPE html>
               <html lang="en">
